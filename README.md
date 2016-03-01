@@ -5,7 +5,7 @@
 
 ---
 
-**Quick project summary shown here.**
+**Given a complete function, determine the correct data format for the information to be output correctly.**
 
 - *Fork this repository.*
 - Convert the information found in `content.csv` into a data structure in the Javascript file.
