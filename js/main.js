@@ -5,7 +5,34 @@ var insects = [
     image: 'ant-nest-beetle.jpg',
     family: 'Carabidae',
     size: '6-20',
-  }
+    eats: {
+      eatsInsects: true,
+      eatsDung: false,
+      eatsPlants: false,
+    }
+  },
+  {
+    name: 'Dung Beetle',
+    image: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: '20-30',
+    eats: {
+      eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false,
+    }
+  },
+  {
+    name: 'Stag Beetle',
+    image: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    size: '5-120',
+    eats: {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true,
+    }
+  },
 ]
 
 // ##########################################################
